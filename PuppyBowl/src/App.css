@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #c01717;
+}
+.player-image{
+  width:300px;
+}
+
+.nav-links, .selection{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 10px;
+  font-family: fantasy;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #d51717;
+  font-weight: bold;
+}
+.form{ 
+  flex-direction: column;
+  display:grid;
+  justify-content: center;
+  gap: 20px;
+}
+.search-bar{
+  justify-content: center;
+ 
+}
+
+.player-card{
+  background: #885c5c;
+  border-radius: 10px;
+  
+
+}
